@@ -11,3 +11,10 @@ function lowerCaseWords(array) {
       }
     });
   }
+
+
+  const mixedArray = ['PIZZA', 10, true, 25, false, 'Wings', '25'];
+lowerCaseWords(mixedArray)
+  .then(result => console.log(result))  // Output: ['pizza', 'wings']
+  .catch(error => console.log(error));
+
